@@ -1,0 +1,646 @@
+*{ padding: 0;
+   margin: 0;
+   font-family: arial;}
+
+.navbar{ 
+    height: 72px;
+    background-color: #0f3cc9;
+    display: flex;
+    justify-content: space-evenly;}
+
+
+
+ .jio-logo{
+     height: 68px;
+     width: 68px;}
+  
+  .logo{
+     background-image: url("jio-logo.png");
+     background-size:cover;
+     height: 68px;
+     width: 68px;}
+
+#New-logo{
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  background-color: red;
+  border-radius: 28px;
+  height: 20px;
+  width: 35px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;}
+
+#true5g{
+   margin-bottom: 18px;}
+
+.box2{
+   display: flex;
+   color: white;
+   font-size: 1rem;
+   font-weight: 700;
+   justify-content: center;
+   align-items: center;
+}
+
+.box2-h{
+   margin-left: 50px;
+   color: white;
+   text-decoration: none;}
+
+   .box2-h:hover{ 
+      color: rgb(208, 217, 247)}
+
+.box3{ 
+   height: 72;
+   width: 832;
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+
+.search-logo{
+   height: 40px;
+   width: 300px;
+   background-color: #0A2885;
+   display: flex;
+   
+   align-items: center;
+   border-radius: 25px;
+   color: white;
+   font-size: 1.3rem;}
+
+  #ph{
+   background-color: #0A2885;
+   text-decoration: none;
+   border: none;} 
+
+ .search-icon{
+   height: 40px;
+   width: 40px;
+   display: flex;
+   align-items: center;
+   margin-left: 15px;}
+
+   ::placeholder {
+       color: white;
+       font-size: 1.01rem;
+       font-weight: 360;}
+   ::placeholder:hover{ border-color: #0A2885;}
+
+   .user-logo{
+      display: flex ;
+      font-size: 1.6rem;
+      color: white;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 23px;
+   margin-right: 30px;}
+
+   .user-logo:hover{
+      color: rgb(200,217,247);}
+
+
+/* navigation bar the end 
+
+Now we started main part flex and many other things in this code  */
+
+.jio-flex1{
+    background-image: url("jio-nf-flex2.jpg");
+    width: 100%;
+    height: 390px;
+    background-size: cover;
+    justify-content: space-evenly;}
+
+.para1{
+   color: white;
+   font-size: 3.5rem;
+   font-weight: 800;}
+
+.laptop-line{
+   color: white;
+   text-decoration: none;
+   font-size: 1.2rem;
+   margin-top: 1px;
+   margin-left: 63px;
+   opacity: 0.8;
+   width: 300px;}
+
+.laptop-line-div{
+    height: 12px;}
+
+
+.know-more{
+   background-color: #1144e4;
+   height: 40px;
+   width: 110px;
+   border-radius: 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 1.rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 400;}
+
+   .know-more-div{
+      margin-left: 63px;
+      margin-top: 35px;}
+
+   .know-more:hover{ background-color: rgb(60, 124, 243)}
+
+   .buy-now{
+      height: 40px;
+      width: 100px;
+      border-radius: 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;}
+
+   .buy-now-div{
+      margin-left: 20px;
+      margin-top: 35px;}
+
+   .buy-now:hover{
+      border: white solid 1px;}
+
+   .flex2-buttons{
+      display: flex;
+   }
+   
+   
+
+   /* flex1 end now we start list-dosts */
+
+   .list-dots{
+     color: rgb(208,217,247);
+     height: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 20px;
+     justify-content: space-between 20px}
+
+     li{
+      font-size: 2rem;
+      font-weight: 700;
+      color: rgb(200,217,247);}
+
+     li:hover{
+      color: #1144e4;}
+
+     /* we started jio card box */
+
+
+     .jio-card-box{
+      height: 156px;
+      width: 100%;
+      background-color:white;
+      padding: 16px 0px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       /* margin-left: 250px; */
+      text-align: center;} 
+
+      .card-box{
+         height: 115px;
+         width: 116px;
+         margin: 16px 0px;
+         border-radius: 20px;}
+      
+      .bg-jio-card{height: 64px;
+         width: 64px;
+         border-radius: 64px;
+         background-color: #E7EBF8;
+         margin-left: 25px;
+         justify-content: center;
+         align-items: center;
+         margin-top: 15px;}
+         
+      
+
+      .jio-card-text{
+         color:black;
+         padding-top: 10px;
+         font-weight: 540;
+         font-size: 0.98rem;
+         /* margin-left: 22px; */
+         margin-top: 5px;}
+         
+
+
+      .jio-card-box a {
+         color:black;
+            padding-top: 10px;
+            font-weight: 500;
+            font-size: 0.98rem;
+            /* margin-left: 21px; */
+            text-decoration: none;
+            margin-left: 21px;
+            display: flex;}
+
+      .card-box:hover{
+         background-color: #E7EBF8 ;
+         transition: 0.6s ease; }
+
+    #jio-card-icon1{
+      font-size: 1.5rem;
+      padding-top: 31px;
+      /* padding-left: 6px; */
+      color: #0f3cc9;}
+
+    #jio-card-icon2{
+     font-size: 1.6rem ;
+     /* padding-left: 6px; */
+     padding-top: 21px;
+     color: #0f3cc9;}
+      
+
+    #jio-card-icon3{
+      font-size: 1.7rem ;
+      /* padding-left: 16px; */
+      padding-top: 19px;
+      color: #0f3cc9;
+      border-radius: 5px;}
+
+    #jio-card-icon4{
+         font-size: 1.7rem ;
+         /* padding-left: 20px; */
+         padding-top: 19px;
+         color: #0f3cc9;
+         border-radius: 5px;}
+
+    #jio-card-icon5{
+      font-size: 1.8rem ;
+      /* padding-left: 17px; */
+      padding-top: 19px;
+      color: #0f3cc9;
+      border-radius: 5px;}
+
+      #jio-card-icon6{
+         font-size: 1.7rem ;
+         /* padding-left: 20px; */
+         padding-top: 19px;
+         color: #0f3cc9;
+         border-radius: 5px;}
+
+         /* <!-- icons completed now we start flex2 --> */
+
+   .jio-flex2{
+      background-image: url("jioflex2.jpg");
+      background-size: cover;
+      height: 300px;
+      width: 80%;
+      /* margin-left: 150px; */
+      border-radius: 20px;
+      margin-top: 50px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-evenly;
+      text-align: center;}
+
+  .true5G{
+   border-radius: 50px;
+   background-color: #cd3d00;
+   height: 45px;
+   width: 130px;
+   display: flex;
+   font-family:sans-serif;
+   color: white;
+   font-size: 1.3rem;
+   justify-content: center;
+   align-items: center;
+   /* margin-left: 475px; */
+   font-weight: 700;
+  display: flex;}
+  
+  .jio-true-5G-logo{
+   /* background-image:url("jio-logo-in-orange.jpg"); */
+   background-size: cover;
+   display: flex;
+   height: 35px;
+   width: 35px;}
+
+#jio-logo-in-orange{
+   height: 32px;
+   width: 32px;
+   border-radius: 32px;
+}
+
+   #flex2{
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;}
+
+   .flex2-text{
+     color: white;
+     font-weight: 700;
+     font-size: 2.5rem;
+     margin-top: 90px;}
+
+
+.flex2-box3{
+   background-color: white;
+   height: 45px ;
+   width: 200px;
+   border-radius: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   color: #cd3d00;
+   font-size: 0.85rem;
+   font-weight: 600;}
+
+
+.flex2-box3:hover{
+   background: #f89f3c;
+   color: white;}
+
+/* flex2 ia over now we start flex3 */
+
+.flex3{
+   background-color: white;
+   color: black;
+   width: 100%;
+   height: 120px;
+   margin-top: 80px;
+   text-align: center;}
+   
+
+.flex3-box1{
+   height: 43px;
+   width:100%;
+   background-color: white;
+   font-size: 3.2rem;
+   font-weight: 850;}
+
+.flex3-box2{
+   height: 60px;
+   width: 100%;
+   font-size: 1.095rem;
+   padding-top: 30px;}   
+
+/* flex3 is over now we start flex 4 */
+
+.flex4{
+   height: 520px;
+   width: 100%;
+   background-color: #d9008d; 
+   display: flex;}  
+   
+.flex4-text{
+   height: 500px;
+   width: 35%;}
+
+#flex4-jio-cinema{
+   display: flex;
+   /* justify-content: center; */
+   align-items: center;
+   padding-top: 90px;
+   padding-left: 90px;
+}
+
+
+#jio-cinema-logo{
+   height: 74px;
+   width: 74px;
+   border-radius: 74px;
+   background-size: cover;}
+
+#jio-cinema-logo-text{
+   font-size: 1.5rem;
+   color: white;
+   font-weight: 700;}
+
+
+#flex4-text2{
+   font-size: 2.3rem;
+   color: white;
+   font-weight: 800;
+   padding-left: 110px;
+   font-family:Helvetica, sans-serif;}
+
+
+#flex4-know-more-button{
+   height: 48px;
+   width: 114px;
+   color:#62003f;
+   background-color: #ff98db;
+   border-radius: 25px;
+   margin-left: 110px;
+   font-size: 1.1rem;
+   font-weight: 400;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   margin-top: 15px;
+   text-decoration: none;}
+
+   #flex4-know-more-button:hover{
+      color: black;
+      background-color: white;}
+
+.flex4-box2{
+   height: 520x;
+   width: 65%;
+   padding-left: 50px;
+
+   display: inline-flex;}
+
+
+#know-more-button-link{
+   text-decoration: none; }
+
+/* 
+flex4 is over now we started flex5 */
+
+
+
+
+
+/* Now we start footer */
+
+.footer-panel1{
+  background-color: #0f3cc9; 
+  height: 300px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;}
+
+#need-guidance{
+   font-size: 3.5rem;
+   font-weight: 1000;
+   color: white;
+   padding-top: 50px;}
+   
+#help-you{
+  font-size: 1.2rem;
+  font-weight: 500;
+   color: #becefb;
+  padding-top: 8px;}
+
+  .footer-panel1-button{
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+
+.footer-panel1-box{
+   border-radius: 25px;
+   border: #becefb solid 0.4px;
+   height: 45px;
+   width: 150px;
+   margin-left: 12px;
+   margin-top: 28px;
+    color: #becefb;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;}
+
+.footer-panel1-box:hover{
+   border:  0.5px white solid;}
+
+#fp1-support-icon{
+   font-size: 1.5rem;
+   margin-right: 18px;}
+
+#fp1-chatwithus{
+   font-size: 1.3rem;
+   margin-right: 5px;}
+
+#fp1-callus{
+   font-size: 1.5rem;
+   margin-right: 18px;}
+
+#fp1-store{
+   font-size: 1.3rem;
+   margin-right: 8px;}
+
+.text-d{
+   text-decoration: none;}
+
+.footer-panel2{
+  height: 280px;
+  width: 100%;}
+
+
+.footer-panel2{
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;}
+
+
+.footer-panel2-box{
+   height: 280px;
+   width: 182px;
+  padding-left: 20px;
+  justify-content: left;}
+
+.fp2-box-heading{
+   font-size: 1rem;
+   font-weight: 900;
+   color: black;
+   margin-bottom: 15px;}
+
+#footer-panel2-box1{
+   margin-left: 60px;}
+
+
+.fp2-box-content{
+   color: black;
+   font-size: 0.9rem;
+   font-weight: 510;
+   padding-top: 8px;
+   padding-bottom: 8px;}
+
+
+.fp2-box-content:hover{
+ background-color: #cbced6;}
+
+ .text-d2{
+   color: black;
+   text-decoration: none;}
+
+.fp2-box2{
+   height: 285px;
+   width: 390px;}
+
+.fp2-box2-heading{
+   color: black;
+   font-size: 1.5rem;
+   font-weight: 1000;
+   margin-bottom: 20px;}
+
+.fp2-box2-icons{
+   display: flex;}
+
+.fp2-box2-icon{
+   border-radius: 100%;
+   background-color: #0f3cc9;
+   font-size: 1.2rem;
+   height: 35px;
+   width: 35px;
+   text-align: center;
+   color: white;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   margin-right: 20px;
+   margin-bottom: 20px;}
+
+   #appstore-icon{
+      margin-left: 10px;}
+
+
+#jio-logo2{
+   height: 55px;
+   background-size: cover;}
+
+.fp3{
+   display: flex;
+   align-items: center;
+   font-size: 0.75rem;
+   font-weight: 400;
+  justify-content: center;}
+
+.fp3-links{
+   display: flex;
+   align-items: center;
+   margin-left: 510px;}
+
+.fp3-sp{
+   margin-left: 6px;
+   margin-right: 6px;}
+
+
+
+
+
+   
+   
+   
+
+   
+
+       
+      
+
+    
+
+      
