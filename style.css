@@ -162,18 +162,18 @@ Now we started main part flex and many other things in this code  */
       display: flex;
       justify-content: center;
       align-items: center;
-      font-weight: 400;}
+      font-weight: 400;
+      border: #becefb solid 0.01px;}
 
    .buy-now-div{
       margin-left: 20px;
       margin-top: 35px;}
 
    .buy-now:hover{
-      border: white solid 1px;}
+      border: white solid 0.5px;}
 
    .flex2-buttons{
-      display: flex;
-   }
+      display: flex;}
    
    
 
@@ -465,6 +465,174 @@ Now we started main part flex and many other things in this code  */
 
 /* 
 flex4 is over now we started flex5 */
+
+.flex5{
+   height: 315px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 10px;}
+
+.flex5-box1{
+   height: 80px;
+   background-size: cover;
+   display: flex;
+ text-align: center;}
+
+.view-all-apps{
+   border-radius: 25px;
+   margin-top: 185px;
+   height: 44px;
+   width: 135px;
+   align-items: center;
+   font-weight: 800;
+   font-size: 1rem;
+   color: #0a2885;
+   text-align: center;
+   border: #becefb solid 1px;}
+
+  #view-all-appsp{
+   padding-top: 10.5px;
+   }
+
+.view-all-apps:hover{
+   border: #0a2885 solid 1px;}
+
+
+   /* flex5 is over now we started flex 6 uper taxt */
+
+.flex6-uper-text{
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;}
+
+.flex6-uper-text-box1{
+   color: black;
+   font-size: 3.6rem;
+   font-weight: 1000;}
+
+   .flex6-uper-text-box2{
+      color: black;
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-top: 6px;}
+
+/* flex6 uper text is over now we start flex6
+    */
+.flex6{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 450px;}
+
+
+  .flex6-1{
+   display: flex;
+   height: 450px;
+   width: 80%;
+   background-size: cover;
+   border-radius: 25px;
+   background-color: #6d17ce;}
+   
+.flex6-text{
+   height: 450px;
+   width: 50%;
+   border-radius: 25px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;}
+
+   .flex6-box2{
+      height: 450px;
+      width: 50%;
+      border-radius: 25px;
+      overflow: hidden;}
+
+#flex6-img{
+   height: 410px;
+   margin-top:40px;
+   overflow: hidden;}
+
+#jiodive{
+   color: white;
+   font-size: 1.5rem;
+   font-weight: 700;
+   padding-left: 28px;}
+
+#enjoy{
+   color: white;
+   font-size: 2.5rem;
+   font-weight: 1000;
+   padding-top: 8px;
+   padding-left: 28px;}
+
+#nowget{
+   color: white;
+   font-size: 1.1rem;
+   font-weight: 700;
+   opacity: 0.7;
+   padding-top: 15px;
+   padding-left: 28px;}
+
+.buynow-button{
+   height: 40px;
+   width: 130px;
+   border-radius: 25px;
+   margin-left: 28px;
+   margin-top: 10px;
+   color: white;
+   font-size: 1rem;
+   font-weight: 650;
+   text-align: center;
+  border: #becefb solid 0.01px;}
+
+.buynow-button:hover{
+   border: white solid 0.5px;}
+
+#flex6-text-button{
+   text-align: center;
+   margin-top: 11px;}
+
+   /* flex6 is over now we start flex7 */
+
+.flex7{
+   display: flex;
+   height: 600px;
+   justify-content: center;
+   align-items: center;
+   background-size: cover;}
+
+#flex7-p1{
+  background-size: cover;
+   width: 420px;
+   overflow: hidden;
+   margin-left: 15px;
+  background-size: cover;}
+
+#flex7-p2{
+   background-size: cover;
+    width: 420px;
+    overflow: hidden;
+    margin-left: 15px;}
+
+ #flex7-p3{
+   background-size: cover;
+    width: 420px;
+   overflow: hidden;
+    margin-left: 15px;}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
