@@ -15,7 +15,7 @@
      width: 68px;}
   
   .logo{
-     background-image: url("jio-logo.png");
+     background-image: url("/jio-all-imgs/jio-logo.png");
      background-size:cover;
      height: 68px;
      width: 68px;}
@@ -109,7 +109,7 @@
 Now we started main part flex and many other things in this code  */
 
 .jio-flex1{
-    background-image: url("jio-nf-flex2.jpg");
+    background-image: url("/jio-all-imgs/jio-nf-flex2.jpg");
     width: 100%;
     height: 390px;
     background-size: cover;
@@ -295,7 +295,7 @@ Now we started main part flex and many other things in this code  */
          /* <!-- icons completed now we start flex2 --> */
 
    .jio-flex2{
-      background-image: url("jioflex2.jpg");
+      background-image: url("/jio-all-imgs/jioflex2.jpg");
       background-size: cover;
       height: 300px;
       width: 80%;
@@ -407,9 +407,8 @@ Now we started main part flex and many other things in this code  */
    display: flex;
    /* justify-content: center; */
    align-items: center;
-   padding-top: 90px;
-   padding-left: 90px;
-}
+   padding-top: 80px;
+   padding-left: 90px;}
 
 
 #jio-cinema-logo{
@@ -454,7 +453,7 @@ Now we started main part flex and many other things in this code  */
 
 .flex4-box2{
    height: 520x;
-   width: 65%;
+   width: 55%;
    padding-left: 50px;
 
    display: inline-flex;}
@@ -467,21 +466,46 @@ Now we started main part flex and many other things in this code  */
 flex4 is over now we started flex5 */
 
 .flex5{
-   height: 315px;
+   height: 280px;
    display: flex;
-   flex-direction: column;
    align-items: center;
-   margin-top: 10px;}
+   margin-top: 10px;
+   white-space: nowrap;
+   overflow-x: auto;
+   overflow-y: hidden;
+   background-size: cover;
+   flex-direction: column;}
 
-.flex5-box1{
+/* .flex5-box1{
    height: 80px;
    background-size: cover;
    display: flex;
- text-align: center;}
+ text-align: center;} */
+
+ .flex5-box1{
+   height: 90px;
+   background-size: cover;
+   display:inline-block;
+   padding-left: 15px;
+   text-align: center;}
+
+   #jioflex5wi{
+      height: 70px;}
+
+ .flex5-box2{
+   margin-left: 10px;}
+
+   .flex5-box3{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+      width: 100%;}
+
 
 .view-all-apps{
    border-radius: 25px;
-   margin-top: 185px;
+   margin-top: 18px;
    height: 44px;
    width: 135px;
    align-items: center;
@@ -489,11 +513,11 @@ flex4 is over now we started flex5 */
    font-size: 1rem;
    color: #0a2885;
    text-align: center;
-   border: #becefb solid 1px;}
+   border: #becefb solid 1px;
+   justify-content: center;}
 
   #view-all-appsp{
-   padding-top: 10.5px;
-   }
+   padding-top: 10.5px;}
 
 .view-all-apps:hover{
    border: #0a2885 solid 1px;}
@@ -596,32 +620,6 @@ flex4 is over now we started flex5 */
    margin-top: 11px;}
 
    /* flex6 is over now we start flex7 */
-
-.flex7{
-   display: flex;
-   height: 600px;
-   justify-content: center;
-   align-items: center;
-   background-size: cover;}
-
-#flex7-p1{
-  background-size: cover;
-   width: 420px;
-   overflow: hidden;
-   margin-left: 15px;
-  background-size: cover;}
-
-#flex7-p2{
-   background-size: cover;
-    width: 420px;
-    overflow: hidden;
-    margin-left: 15px;}
-
- #flex7-p3{
-   background-size: cover;
-    width: 420px;
-   overflow: hidden;
-    margin-left: 15px;}
 
 
 
