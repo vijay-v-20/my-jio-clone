@@ -2,6 +2,8 @@
    margin: 0;
    font-family: arial;}
 
+
+
 .navbar{ 
     height: 72px;
     background-color: #0f3cc9;
@@ -452,11 +454,11 @@ Now we started main part flex and many other things in this code  */
       background-color: white;}
 
 .flex4-box2{
-   height: 520x;
+   height: 520px;
    width: 55%;
    padding-left: 50px;
 
-   display: inline-flex;}
+   display: contents;}
 
 
 #know-more-button-link{
@@ -530,7 +532,8 @@ flex4 is over now we started flex5 */
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;}
+   align-items: center;
+  width: 100%;}
 
 .flex6-uper-text-box1{
    color: black;
@@ -572,7 +575,9 @@ flex4 is over now we started flex5 */
       height: 450px;
       width: 50%;
       border-radius: 25px;
-      overflow: hidden;}
+      overflow: hidden;
+     display: table;
+     }
 
 #flex6-img{
    height: 410px;
@@ -795,9 +800,10 @@ flex4 is over now we started flex5 */
    margin-right: 6px;}
 
 
+   .flex2-text-resp{display: none;}
 
-
-
+   .search-logo-resp{display: none;}
+   .search-icon-resp{ display: none;}
    
    
    
